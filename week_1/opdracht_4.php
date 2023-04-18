@@ -16,9 +16,9 @@
 <?php
 if(isset($_POST['submit'])) {
     $getal = $_POST['getal'];
-    $som = 0;
+    $som = 1;
     for($i = 1; $i <= $getal; $i++) {
-        $som += $i;
+        $som *= $i;
     }
     echo "De som van 1 tot en met " . $getal . " is: " . $som;
 }
