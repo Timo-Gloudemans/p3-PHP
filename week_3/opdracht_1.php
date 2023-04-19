@@ -17,7 +17,9 @@
   else
       $_SESSION['views']=1;
         
-  echo"views = ".$_SESSION['views'];
+  echo"Deze Pagina heb je al: ".$_SESSION['views'];
+
+  echo " <br> voordat je de internet browser hebt afgesloten."
 
  ?>
 
